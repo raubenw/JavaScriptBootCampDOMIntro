@@ -1,8 +1,8 @@
 <html>
-<head>
-    <link rel="stylesheet" src="style.css" />
-    <script src="script.js" ></script>
-</head>
+    <head>
+        <link href="style.css" type="text/css" rel="stylesheet" /> 
+        <script src="script.js"></script>
+    </head>
 <body>
     <h1>Good day Peeps</h1>
 
@@ -16,8 +16,20 @@
         </div>
     </div>
     <div class="elements">
-
-            
     </div>
+
+    <div class="tablecreator">
+        <div class="container-fluid element">
+            <input id="rows" type="text" placeholder="Rows" />
+            <input id="cols" type="text" placeholder="Columns" />
+        </div>
+        <div>
+            <button class="primary-btn" onclick="createTable()">Create table</button>
+        </div>
+    </div>
+    <div class="tablesContainer" id="tablesDIV">        
+    
+    </div>
+
 </body
 </html>
